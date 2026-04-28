@@ -18,9 +18,8 @@ https://url-shortener-kqmq.onrender.com/
 
 ---
 # Features
-
+```bash
 ✅ Shorten long URLs
-
 ✅ Custom short URLs
 ✅ Redirect to original URL
 ✅ Click tracking
@@ -28,7 +27,7 @@ https://url-shortener-kqmq.onrender.com/
 ✅ MongoDB Atlas integration
 ✅ Frontend using HTML/CSS/JS
 ✅ Fully deployable on Render
-
+```
 --- 
 # Tech Stack
 ## Backend

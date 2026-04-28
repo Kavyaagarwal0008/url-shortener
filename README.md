@@ -12,9 +12,7 @@ Users can:
 
 # 🚀 Live Demo
 
-Add your deployed link here after deployment:
-# URL 
-https://url-shortener-kqmq.onrender.com/
+URL :https://url-shortener-kqmq.onrender.com/
 
 ---
 # Features
@@ -30,6 +28,7 @@ https://url-shortener-kqmq.onrender.com/
 ```
 --- 
 # Tech Stack
+```bash
 ## Backend
 Node.js
 Express.js
@@ -41,3 +40,36 @@ CSS
 JavaScript
 ## Deployment
 Render
+```
+---
+# Project Structure
+```bash
+url-shortener/
+│
+├── config/
+│   └── db.js
+│
+├── controllers/
+│   └── urlController.js
+│
+├── models/
+│   └── Url.js
+│
+├── public/
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+│
+├── routes/
+│   └── urlRoutes.js
+│
+├── utils/
+│   └── generateCode.js
+│
+├── .env
+├── .gitignore
+├── package.json
+├── server.js
+└── README.md
+```
+

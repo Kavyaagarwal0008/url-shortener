@@ -1,5 +1,6 @@
 # 🔗 URL Shortener API
 <img width="1600" height="779" alt="image" src="https://github.com/user-attachments/assets/242190c9-8120-4d8f-a3fc-3d8ed15c6b00" />
+<img width="717" height="555" alt="image" src="https://github.com/user-attachments/assets/1c5e010c-aa73-45f6-ae41-e2cb2566b7cc" />
 
 
 A full-stack URL Shortener application built using Node.js, Express.js, MongoDB Atlas, and vanilla HTML/CSS/JavaScript.
@@ -95,3 +96,39 @@ Kavya Agarwal
 ⭐ Support
 
 If you like this project, give it a ⭐ on GitHub.
+
+---
+# Installation
+```bash
+```
+1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/your-username/url-shortener.git
+```
+2️⃣ Move Into Project
+```bash
+cd url-shortener
+```
+3️⃣ Install Dependencies
+```bash
+npm install express mongoose dotenv shortid valid-url cors
+npm install --save-dev nodemon
+```
+🔐 Environment Variables
+
+Create a .env file in the root directory.
+```bash
+PORT=5000
+
+MONGO_URI=your_mongodb_connection_string
+```
+▶️ Run Project
+Development Mode
+```bash
+npm run dev
+```
+Production Mode
+```bash
+npm start
+```
